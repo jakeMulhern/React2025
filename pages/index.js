@@ -29,8 +29,7 @@ export default function Home() {
         {auth?.user && (
           <button onClick={(e) => auth.signout()} >Sign Out</button>
         )}
-        <article>test1</article>
-        <aside>test2</aside>
+        
       </main>
 
       <footer className={styles.footer}>
